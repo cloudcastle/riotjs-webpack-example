@@ -1,0 +1,33 @@
+{
+  "name": "riot-webpack-report",
+  "version": "0.0.1",
+  "description": "Example of webpack and riot",
+  "main": "src/meet.tag",
+  "author": "maddoger",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "NODE_ENV=production webpack -p",
+    "dev-server": "webpack-dev-server --port 8090 --content-base ./dist --history-api-fallback true --progress --inline --hot"
+  },
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "chart.js": "^2.2.2",
+    "commonmark": "^0.26.0",
+    "dsv-loader": "^1.1.0",
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4",
+    "html-loader": "^0.4.3",
+    "json-loader": "^0.5.4",
+    "markdown-loader": "^0.1.7",
+    "riot": "^2.6.1",
+    "riot-loader": "^1.0.0",
+    "riotgear": "^3.5.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.0",
+    "xhttp": "0.0.9"
+  }
+}
